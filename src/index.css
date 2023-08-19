@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz,wght@8..144,400;8..144,600;8..144,700;8..144,800&family=Roboto+Mono:ital,wght@0,400;0,500;0,600;0,700;1,100&family=Roboto:ital,wght@0,300;0,400;0,500;0,700;0,900;1,700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+body {
+  /* color-scheme: light dark; */
+  /* color: rgba(255, 255, 255, 0.87);
+  background-color: #01323C; */
+  font-family: 'Roboto', sans-serif;
+}
+.feed{
+  margin-top: 10px;
+  display: grid;
+  gap: 30px;
+  grid-template-columns: repeat(auto-fit, minMax(280px, 1fr));
+  justify-content: space-between;
+  padding: 3px;
+}
+
+.title{
+  text-transform: capitalize;
+}
